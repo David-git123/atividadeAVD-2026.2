@@ -27,7 +27,7 @@ def carregar_dados(caminho_csv: str) -> pd.DataFrame:
 
 # Tenta carregar o dataset
 try:
-    df_raw = carregar_dados('datasetClean.csv')
+    df_raw = carregar_dados('data/clean/datasetClean.csv')
 except Exception as e:
     st.error(f"Erro ao carregar o arquivo 'datasetClean.csv': {e}")
     st.stop()
