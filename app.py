@@ -85,7 +85,7 @@ if opcao_dashboard == "Dashboard 1: Análise Correlacional":
     variaveis_selecionadas_chaves = st.sidebar.multiselect(
         label="Selecione as variáveis para análise:",
         options=colunas_numericas,
-        default=['idade', 'limite_credito', 'valor_transacoes_12m', 'qtd_transacoes_12m'],
+        default=['idade', 'limite_credito','qtd_transacoes_12m'],
         format_func=lambda x: MAPA_COLUNAS.get(x, x),
         key="ms_dash1"
     )
