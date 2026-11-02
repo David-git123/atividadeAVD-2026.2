@@ -1,9 +1,7 @@
-# Configuração do Streamlit. Descomente e ajuste conforme o projeto avançar.
-
-# [theme]
-# base = "light"            # "light" ou "dark"
-# primaryColor = ""         # cor de destaque (widgets, links)
-# backgroundColor = ""      # fundo da página
-# secondaryBackgroundColor = ""  # fundo da sidebar e de widgets
-# textColor = ""            # cor do texto
-# font = "sans serif"       # "sans serif", "serif" ou "monospace"
+[theme]
+base = "dark"
+primaryColor = "#D4AF37"             # Dourado (widgets, seleções e destaques)
+backgroundColor = "#0A192F"          # Azul escuro (fundo principal da página)
+secondaryBackgroundColor = "#4A0E2E"  # Vinho (fundo da sidebar e contêineres)
+textColor = "#E8A5B8"                # Tom vinho claro (garante legibilidade sobre o azul escuro)
+font = "sans serif"
